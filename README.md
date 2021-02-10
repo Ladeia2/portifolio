@@ -10,4 +10,4 @@ O Controle das tarefas desse projeto será realizado no GitHuB
 :package: nova funcionalidade
 :up: atualização
 :neckbeard: correção de bug
-:checkered_fleg: realse
+:checkered_flag: release
