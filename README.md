@@ -1,4 +1,4 @@
-# portifolio
+# portfolio
 Portfolio do desenvolvedor 
 
 ## Tarefas
