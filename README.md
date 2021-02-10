@@ -7,7 +7,7 @@ O Controle das tarefas desse projeto será realizado no GitHuB
 
 ## Icones
 
-:package: nova funcionalidade
-:up: atualização
-:neckbeard: correção de bug
-:checkered_flag: release
+- :package: nova funcionalidade
+- :up: atualização
+- :neckbeard: correção de bug
+- :checkered_flag: release
