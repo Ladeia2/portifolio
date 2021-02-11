@@ -1,9 +1,6 @@
-<<<<<<< HEAD
-# portifolio
 
-=======
 # portfolio
->>>>>>> 3a7e840bf054d5e784201d272199d9cb8a7de5a1
+
 Portfolio do desenvolvedor 
 
 ## Tarefas
