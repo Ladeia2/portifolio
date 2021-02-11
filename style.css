@@ -5,7 +5,52 @@
 *{
     margin: 0;
     padding: 0;
+    list-style: none;
+    text-decoration: none;
 }
+
+:root {
+    --font-primary: "Baloo Da 2", serif;
+    --font-secundary: "Josefin Slab", serif;
+    --font-action: "Muli", serif;
+  }
+
+.hamburguer{
+    /* background-color: red; */
+    width: 10rem;
+    height: 2rem;
+    position: fixed;
+    z-index: 100;
+    right: 2rem;
+    top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    cursor: pointer;
+  }
+.hamburguer:hover{
+    background-color: rgb(19, 21, 131);
+}
+.hamburguer span{
+    position: absolute;
+    left: 5rem;
+    height: 2rem;
+    width: 6rem;
+    display: flex;
+    justify-content: start;
+    align-content: center;
+    background-color: slateblue;
+
+
+}
+
+.line {
+    width: 100%;
+    height: 0.1rem;
+    background-color: #fff;
+    box-shadow: 0.1rem 0.1rem 1px #000;
+    transition: transform 1s;
+  }
 
 
 header{
@@ -49,7 +94,7 @@ header{
 .banner h1{
     color: #ffffff;
     font-size: 3.5rem;
-    font-family: "Baloo 2", serif;
+    font-family: var(--font-primary);
     font-weight: 200;
     text-shadow: .0.2rem .0.3rm 2px rgba(0, 0, 0, .4);
     line-height: 4.5rem;
@@ -93,4 +138,67 @@ header{
     color: rgb(21, 116, 21);
 }
 
+.sidebar{
+    width: 20rem; 
+    height: 100vh;
+    background-color: rgb(248, 240, 229);
+    position: fixed;
+    top: 0;
+    right: -20rem;
+    transition: all 1s;
 
+
+}
+
+.sidebar.show-menu{
+    right: 0;
+}
+
+.menu{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.menu-item{
+    text-align: center;
+
+}
+
+.menu-link{
+    font-family:  var(--font-action);
+    font-size: 2rem;
+    color: rgb(32, 25, 25) ;
+    transition: color 1s;
+
+}
+
+.menu-link:hover{
+    color: rgb(207, 24, 24);
+}
+
+.social-media{
+    background-color: rgb(217, 233, 217);
+    position: absolute;
+    bottom: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 3rem;
+    
+}
+.social-media:hover{
+    background-color: seagreen;
+}
+.social-media i { 
+
+    background-color: rgb(21, 116, 21);
+    color: rgb(235, 223, 223);
+    height: 3rem;
+    width: 3rem;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+
+}
