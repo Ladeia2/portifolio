@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="imagens/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="imagens/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <title>Simulador de Imposto de Renda</title>
+
+    <style>
+        .tabelaIR {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+            border: solid black;
+            padding: 10%;
+
+
+        }
+
+        td,
+        th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 5px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+
+        
+    </style>
+
+</head>
+
+<body>
+
+    <h1> Tabela de IR 2020 </h1> 
+    
+   
+    <figure class="tabelaIR">
+        <table>
+            <tbody>
+                <tr>
+                    <td><strong>Base de cálculo&nbsp;</strong></td>
+                    <td><strong>Alíquota</strong></td>
+                    <td><strong>Parcela a deduzir do IRPF</strong></td>
+                </tr>
+                <tr>
+                    <td>Até R$ 1.903,98</td>
+                    <td>Isento</td>
+                    <td>R$ 0,00</td>
+                </tr>
+                <tr>
+                    <td>De R$ 1.903,99 até R$ 2.826,65</td>
+                    <td>7,5%</td>
+                    <td>R$ 142,80</td>
+                </tr>
+                <tr>
+                    <td>De R$ 2.826,66 até R$ 3.751,05</td>
+                    <td>15%</td>
+                    <td>R$ 354,80</td>
+                </tr>
+                <tr>
+                    <td>De R$ 3.751,06 até R$ 4.664,68</td>
+                    <td>22,5%</td>
+                    <td>R$ 636,13</td>
+                </tr>
+                <tr>
+                    <td>Acima de R$ 4.664,68</td>
+                    <td>27,5%</td>
+                    <td>R$869,36</td>
+                </tr>
+                <tr>
+                    <td> <strong> Dedução por dependente: </strong>  </td>
+                    <td> R$ 189,59 </td>
+                </tr>
+            </tbody>
+        </table>
+    </figure>
+
+
+</body>
+
+</html>
